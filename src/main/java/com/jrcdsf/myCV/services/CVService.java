@@ -4,6 +4,8 @@ import com.jrcdsf.myCV.entities.CV;
 import com.jrcdsf.myCV.repositories.CVRepository;
 import org.springframework.stereotype.Service;
 
+import java.io.IOException;
+
 @Service
 public class CVService {
 
@@ -13,7 +15,7 @@ public class CVService {
         this.cvRepository = cvRepository;
     }
 
-    public CV getCV() {
+    public CV getCV() throws IOException {
         return cvRepository.getCV();
     }
 }

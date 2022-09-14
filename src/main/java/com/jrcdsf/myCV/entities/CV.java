@@ -7,7 +7,6 @@ public class CV {
     private String fullName;
     private String name;
     private String surname;
-    private int age;
     private String email;
     private String mobile;
     private String address;
@@ -19,11 +18,23 @@ public class CV {
     private String profileImgPath;
     private String about;
 
-    public CV(String fullName, String name, String surname, int age, String email, String mobile, String address, String birthday, Set<WorkHistory> workHistory, Set<Education> educationHistory, Set<Skill> skills, Set<Language> languages, String profileImgPath, String about) {
+    public CV(String fullName,
+              String name,
+              String surname,
+              String email,
+              String mobile,
+              String address,
+              String birthday,
+              Set<WorkHistory> workHistory,
+              Set<Education> educationHistory,
+              Set<Skill> skills,
+              Set<Language> languages,
+              String profileImgPath,
+              String about) {
+
         this.fullName = fullName;
         this.name = name;
         this.surname = surname;
-        this.age = age;
         this.email = email;
         this.mobile = mobile;
         this.address = address;
@@ -61,14 +72,6 @@ public class CV {
 
     public void setSurname(String surname) {
         this.surname = surname;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
     }
 
     public String getEmail() {
@@ -157,7 +160,6 @@ public class CV {
                 "fullName='" + fullName + '\'' +
                 ", name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
-                ", age=" + age +
                 ", email='" + email + '\'' +
                 ", mobile='" + mobile + '\'' +
                 ", address='" + address + '\'' +

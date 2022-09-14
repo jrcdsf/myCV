@@ -1,0 +1,105 @@
+{
+
+    "name": "Jose Roberto",
+    "surname": "Costa da Silva Filho",
+    "fullName": "Jose Roberto Costa da Silva Filho",
+    "email": "jrcdsf@gmail.com",
+    "mobile": "+55 19 99939-2870",
+    "address": "Rua Bortolo Martins, 1336 - casa 80, Campinas, SP - Brazil",
+    "birthday": "25-Mar-1975",
+    "workHistory": [
+        {
+            "employer": "ezyCollect",
+            "address": "",
+            "country": "Australia",
+            "startDate": "18-Apr-2022",
+            "endDate": "",
+            "description": "Refactored MYOB Advanced integration service from Spring Camel to Spring Cloud AWS and Clean Architecture - increasing scalability and testability",
+            "role": "Senior Backend Software Engineer"
+        }
+    ],
+    "educationHistory": [
+        {
+            "course": "Bachelor of Engineering - Computer Engineering",
+            "school": "UNICAMP",
+            "startDate": "Jan-1994",
+            "endDate": "Dec-1998"
+        },
+        {
+            "course": "Stricto Sensu Postgraduate Level: Pattern Recognition And Machine Learning",
+            "school": "UNICAMP",
+            "startDate": "Mar-2018",
+            "endDate": "Jun-2018"
+        },
+        {
+            "course": "Stricto Sensu Postgraduate Level: Artificial Cognitive Systems",
+            "school": "UNICAMP",
+            "startDate": "Aug-2011",
+            "endDate": "Dec-2011"
+        }
+
+    ],
+    "skills": [
+        {
+            "name": "C"
+        },
+        {
+            "name": "Java"
+        },
+        {
+            "name": "Kotlin"
+        },
+        {
+            "name": "NodeJS"
+        },
+        {
+            "name": "Spring Boot"
+        },
+        {
+            "name": "Flutter"
+        },
+        {
+            "name": "AWS"
+        },
+        {
+            "name": "Google Cloud"
+        },
+        {
+            "name": "Docker"
+        },
+        {
+            "name": "K8s"
+        },
+        {
+            "name": "Elasticsearch"
+        },
+        {
+            "name": "REST API"
+        },
+        {
+            "name": "GraphQL"
+        },
+        {
+            "name": "Machine Learning"
+        }
+    ],
+    "languages": [
+        {
+            "name": "English",
+            "level": "fluent"
+        },
+        {
+            "name": "Spanish",
+            "level": "intermediate"
+        },
+        {
+            "name": "French",
+            "level": "basic"
+        },
+        {
+            "name": "Portuguese",
+            "level": "native"
+        }
+    ],
+    "profileImgPath": "https://com-jrcdsf-mycv.s3.sa-east-1.amazonaws.com/avatar.jpg"
+}

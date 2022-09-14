@@ -2,9 +2,10 @@ package com.jrcdsf.myCV.controllers;
 
 import com.jrcdsf.myCV.entities.CV;
 import com.jrcdsf.myCV.services.CVService;
-import org.springframework.graphql.data.method.annotation.QueryMapping;
 import org.springframework.graphql.data.method.annotation.SchemaMapping;
 import org.springframework.stereotype.Controller;
+
+import java.io.IOException;
 
 @Controller
 public class CVController {
@@ -17,7 +18,7 @@ public class CVController {
     }
 
     @SchemaMapping(typeName = "Query", value = "cv")
-    public CV getCV(){
+    public CV getCV() throws IOException {
         return cvService.getCV();
     }
 }
