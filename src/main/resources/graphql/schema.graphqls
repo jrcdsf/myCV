@@ -1,0 +1,46 @@
+type Query {
+    cv : CV
+}
+
+type CV {
+    fullName: String!
+    name: String!
+    surname: String!
+    age: Int
+    email: String!
+    mobile: String!
+    address: String
+    birthday: String
+    workHistory: [WorkHistory!]!
+    educationHistory: [Education!]!
+    skills: [Skill!]!
+    languages: [Language!]!
+    profileImgPath: String
+    about: String
+}
+
+type WorkHistory{
+    employer: String!
+    address: String
+    country: String
+    startDate: String!
+    endDate: String
+    description: String!
+    role: String!
+}
+
+type Skill {
+    name: String!
+}
+
+type Education {
+    course: String!
+    school: String!
+    startDate: String!
+    endDate: String
+}
+
+type Language {
+    name: String!
+    level: String!
+}
